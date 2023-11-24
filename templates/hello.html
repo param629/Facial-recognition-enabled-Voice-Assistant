@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+  <title>
+    Virtual Assistant
+  </title>
+</head>
+<body>
+  <header>
+    <div class="row">
+      <image src="{{url_for('static',filename = 'images/Logo_of_NIT_Jalandhar.png')}}" class="Logo" >
+      <div class="Header-text">
+        <h1 class="header-text--h1">Virtual Assistant</h1>
+      </div>
+    </div>
+  </header>
+  <section class="Project_start">
+    <div class="message">
+      <p class="message1">
+        Welcome! To your own personal Virtual Assistant
+      </p>
+      <p class="message2">
+        Tap on the button to tell if it's really you
+      </p>
+    </div>
+    <form method="POST" action="/" enctype="multipart/form-data">
+  		<button onclick = "face_recognition()" class="btn btn-primary btn-full"><i class="fa fa-microphone"></i></button>
+      <h1 class="heading">START PROJECT</h1>
+     	</form>
+  </section>
+</body>
+</html>

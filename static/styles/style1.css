@@ -1,0 +1,39 @@
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  align-items: center;
+}
+html {
+    background-color:#fff;
+  color: black;
+  font-family: 'Lato','Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+content: '.';
+clear: both;
+display: block;
+height: 0;
+visibility: hidden;}
+
+.wrong {
+  margin-left: 500px;
+  margin-top: 150px;
+  border: 1px solid #555;
+}
+
+.message1 {
+  margin-left: 490px;
+  padding-top: 30px;
+}
+
+.message2 {
+  margin-left: 400px;
+  padding-top: 20px;
+}

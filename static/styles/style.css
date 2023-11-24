@@ -1,0 +1,89 @@
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+    background-color:#fff;
+  color: #555;
+  font-family: 'Lato','Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+content: '.';
+clear: both;
+display: block;
+height: 0;
+visibility: hidden;}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/nit.jpeg);
+  height: 100vh;
+  color:#fff;
+  background-size: cover;
+  height:240px;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Header-text {
+  position: absolute;
+  left:40%;
+  top:20%;
+  transform: translate(-50%,-50%);
+}
+
+.header-text--h1{
+  font-size: 80px;
+}
+
+.Logo {
+  height: 160px;
+  width: auto;
+  float:left;
+  margin-top: 160px;
+}
+
+.Project_start {
+  padding-top: 100px;
+  text-align: center;
+  height: 455px;
+  background-image: url(images/alexaImage.jpg);
+  color: #fff;
+}
+
+.btn-full {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  border-radius: 200px;
+  padding: 10px 20px;
+  width: 100px;
+  margin-top:30px
+}
+
+.btn-full:hover {
+  background-color: #cf6d17;
+  border:1px solid #cf6d17;
+}
+
+.heading {
+  font-size: 200%;
+  padding-top: 10px;
+  color: white;
+}
+
+.message {
+  color: white;
+  width: 90%;
+  margin-left:60px
+}

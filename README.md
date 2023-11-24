@@ -8,6 +8,40 @@ and offers a meaningful response in return. Not only it increases the productivi
 recognition software nowadays capture speech much faster than a
 human’s average typing speed.
 
+UML DIAGRAMS
+
+⦁	CLASS DIAGRAM
+Class diagram is a static diagram. It represents the static view of an application. Class diagram is not only used for visualizing, describing, and documenting different aspects of a system but also for constructing executable code of the software application.
+Class diagram describes the attributes and operations of a class and also the constraints imposed on the system. The class diagrams are widely used in the modeling of objectoriented systems because they are the only UML diagrams, which can be mapped directly with object-oriented languages.
+
+
+
+ 
+
+⦁	ACTIVITY DIAGRAM
+
+Activity diagram is another important diagram in UML to describe the dynamic aspects of the system.
+Activity diagram is basically a flowchart to represent the flow from one activity to another activity. The activity can be described as an operation of the system.
+The control flow is drawn from one operation to another. This flow can be sequential, branched, or concurrent. Activity diagrams deal with all type of flow control by using different elements such as fork, join, etc
+
+
+
+
+ 
+
+
+
+
+
+⦁	USE CASE DIAGRAM
+
+The purpose of use case diagram is to capture the dynamic aspect of a system. Use case diagrams are used to gather the requirements of a system including internal and external influences. These requirements are mostly design requirements. Hence, when a system is analysed to gather its functionalities, use cases are prepared and actors are identified.
+When the initial task is complete, use case diagrams are modelled to present the outside view.
+
+
+ 
+
+
 1. VOICE ASSISTANT
 a. The first and foremost thing for a voice assistant is that it should be
 able to speak. For this we also need a python library that converts text

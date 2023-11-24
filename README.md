@@ -1,4 +1,13 @@
 # Facial-recognition-enabled-Voice-Assistant
+This is a virtual assistant for our laptops with in built facial
+recognition for authentication of user and interactive user interface.
+By the click of a button, one can give instructions to his/her computer and
+have the system perform easy tasks with great accuracy and efficiency.
+This assistant listens for the user’s message, breaks it down, evaluates it
+and offers a meaningful response in return. Not only it increases the productivity, but speech
+recognition software nowadays capture speech much faster than a
+human’s average typing speed.
+
 1. VOICE ASSISTANT
 a. The first and foremost thing for a voice assistant is that it should be
 able to speak. For this we also need a python library that converts text
@@ -19,7 +28,6 @@ iv. To send WhatsApp messages
 v. To tell the weather of any city
 
 2. FACIAL RECOGNITION
-
 a. Firstly, we load the image file of the user to train the model, encode
 that image and store the encodings.
 b. Then we start with the actual process of face recognition by opening
@@ -42,3 +50,15 @@ b. Then these pages are routed to different URLs so that connection
 between the pages and flow of the system can be established.
 c. At last, these pages are mapped with specific functions and definition
 of what will happen when a certain button on a specific page is clicked.
+
+APPLICATIONS
+
+● It can be used to play music
+● It can do Wikipedia searches
+● It can open websites for the user
+● It can open various software on the system
+● It can send WhatsApp Messages
+● It is for our personal use and takes commands only from the user
+● It can create a to-do list for our daily goals
+● It can tell jokes and tell the time
+● It can tell the weather of the city specified
